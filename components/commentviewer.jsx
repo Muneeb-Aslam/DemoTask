@@ -7,11 +7,11 @@ const CommentViewer = (props) => {
     const { username, comment, count, isLike } = props.comment;
     const img = props.image;
     return (
-        <header className="w-1/2 sm:w-[50%] lg:w-[40%] flex flex-col items-center justify-center space-y-4 pb-8">
+        <header className="w-1/2 sm:w-[50%] lg:w-[40%] flex flex-col items-center justify-center pb-8">
             <div className="text-black font-bold text-lg p-4">
                 Comment Preview
             </div>
-            <section className="w-full rounded-md bg-white p-4 shadow-card flex  items-start justify-center space-x-2">
+            <section className="w-full rounded-md bg-white p-4 shadow-card flex  items-start justify-center space-x-4">
                 {img ? (
                     <Image
                         src={img}

@@ -16,7 +16,7 @@ module.exports = {
       },
       boxShadow:{
         card:"-6px 6px 4px -1px rgba(0, 0, 0, 0.07)"
-      },      
+      },    
     },
   },
   plugins: [],
